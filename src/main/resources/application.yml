@@ -1,0 +1,12 @@
+server:
+  port: 8020
+spring:
+  application:
+    name: userservice
+  devtools:
+    restart:
+      enabled: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8010/eureka
